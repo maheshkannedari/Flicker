@@ -1,0 +1,24 @@
+.header {
+    background-color: darkgreen;
+    color: gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20;
+    width: 100%;
+    height: 10vh;
+    
+    
+    
+}
+.header button{
+    background-color: white;
+    border:hotpink;
+    color: black;
+    padding: 10px 20 px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+    margin-right: 10px;
+}

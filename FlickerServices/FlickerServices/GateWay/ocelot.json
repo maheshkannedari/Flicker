@@ -1,0 +1,23 @@
+{
+  
+    "Routes": [
+      {
+        "DownstreamPathTemplate": "/api/User/Validate",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5289
+          }
+        ],
+        "UpstreamPathTemplate": "/api/User/Validate",
+        "UpstreamHttpMethod": [ "POST" ]
+      } 
+    ],
+    "GlobalConfiguration": {
+      "RequestIdKey": "OcRequestId",
+      "AdministrationPath": "/administration"
+    }
+  }
+
+

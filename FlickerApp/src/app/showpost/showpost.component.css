@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 5px solid blue;
+    padding: 14px;
+}
+.item
+{
+    border: 3px solid rgb(59, 207, 116);
+    margin-right: 3px;
+    box-shadow: 55px 55px 50px 10px solid rgb(28, 28, 209);
+    padding: 12px;
+    border-radius: 12px;
+}

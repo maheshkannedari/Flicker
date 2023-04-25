@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="card mt-2">
+    <div class="postdetails">
+      <div class="formdata">
+        <div class="row">
+          <div class="col-6">
+            <label for="name" class="form-label">Product Name</label>
+            <input type="text" class="form-control" id="name" [(ngModel)]="go.name" placeholder="enter name">
+          </div>
+          <div class="col-6">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" [(ngModel)]="go.email" placeholder="enter email">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <label for="description" class="form-label">Description</label>
+            <input type="text" class="form-control" id="description" [(ngModel)]="go.description" placeholder="enter description">
+          </div>
+          <div class="col-6">
+            <label for="mobilenumber" class="form-label">MobileNumber</label>
+            <input type="text" class="form-control" id="mobilenumber" [(ngModel)]="go.mobileNumber" placeholder="enter mobilenumber">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <label for="price" class="form-label">Price</label>
+            <input type="text" class="form-control" id="price" [(ngModel)]="go.price" placeholder="enter price">
+          </div>
+          <div class="col-6">
+            <label for="image" class="form-label">Image</label>
+            <input type="text" class="form-control" id="image" [(ngModel)]="go.image" placeholder="image url">
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-4">
+            <button type="button" (click)="Addpost()" class="btn btn-primary">Add Post</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- <div>Add PostData</div>
+  <br> -->
+<!-- Id<input type="text" [(ngModel)]="go.id"><br> -->
+<!-- Product Name<input type="text" [(ngModel)]="go.name"><br>
+Description<input type="text" [(ngModel)]="go.description"><br>
+Email<input type="text" [(ngModel)]="go.email"><br>
+Price<input type="text" [(ngModel)]="go.price"><br>
+MobileNumber<input type="text" [(ngModel)]="go.mobileNumber"><br>
+Image<input type="text" [(ngModel)]="go.image"><br>
+<button (click)="Addpost()">Add Post</button> -->

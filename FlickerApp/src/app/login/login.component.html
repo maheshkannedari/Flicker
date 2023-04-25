@@ -1,0 +1,13 @@
+<div class="login-box" id="login-box">
+    <h2 class="login-tittle">Login</h2>
+    <form>
+        <label>
+            Email:
+            <input type="email" name="email" [(ngModel)]="m.email" required >
+        </label>
+        Password:
+        <input type="password" name="password" [(ngModel)]="m.password" required >
+        <button type="submit" (click)="loginHandler()">Login</button>
+    </form>
+    <p>Don't Have An Account? <a routerLink="/login">Register Here</a></p>
+</div>

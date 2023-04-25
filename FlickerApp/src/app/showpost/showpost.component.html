@@ -1,0 +1,29 @@
+
+<!-- <div class="container">
+    <div *ngFor="let x of gc" class="items">
+      {{x.id}} <br>
+      {{x.name}} <br>
+      {{x.description}} <br>
+      {{x.price}} <br>
+      {{x.image}}<br>
+      {{x.email}} <br>
+      {{x.mobilenumber}}
+    </div>
+  
+  </div> -->
+  <nav></nav>
+  <div class="container">
+<div class="card" style="width: 18rem;" *ngFor="let x of gc">
+    <div class="card-body">
+      <h5 class="card-title">{{x.name}} </h5>
+      <h6 class="card-subtitle mb-2 text-muted">Product</h6>
+      <p class="card-text">{{x.description}} </p>
+      <p class="card-text">{{x.price}} </p>
+      <p class="card-text">{{x.mobileNumber}} </p>
+      <img [src]="x.image" alt="not" width="220" height="220">  
+      <p class="card-text">{{x.email}} </p>
+      <a class="card-link" routerLink="/chat">Chat</a>
+      <!-- <a href="#" class="card-link">Another link</a> -->
+    </div>
+  </div>
+</div>

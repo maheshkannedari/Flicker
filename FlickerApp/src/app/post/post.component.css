@@ -1,0 +1,53 @@
+.postdetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    color: rgb(70, 43, 226);
+    
+}
+
+.formdata{
+    margin: 5px;
+    padding: 30px;
+    width:50%;
+    background-color:rgb(228, 231, 235);
+    border-radius: 5px;
+    border: 1px solid rgb(40, 204, 32) ;
+}
+
+
+
+/* div{
+    align-items: center;
+}
+  
+  
+  
+  input {
+    width: 200px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    flex-direction: column;
+   
+    
+    
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #1c87c9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  } */
+
+  
+  
+  
+
+  

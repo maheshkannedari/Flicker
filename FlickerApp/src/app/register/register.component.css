@@ -1,0 +1,49 @@
+/* register.component.css */
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 300px;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #1c87c9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0e6ba8;
+  }
+
+  p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,33 @@
+{
+  "Routes": [
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Post",
+      "DownstreamSchme": "http",
+      "UpstreamPathTemplate": "/api/Post",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "ServiceName": "PostService",
+      "LoadBalancerOptions": { "Type": "LeastConnection" }
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Chat",
+      "DownstreamSchme": "http",
+      "UpstreamPathTemplate": "/api/Chat",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "ServiceName": "ChatService",
+      "LoadBalancerOptions": { "Type": "LeastConnection" }
+    }
+  ],
+  "GlobalConfiguration": {
+    "ServiceDiscoveryProvider": {
+      "Scheme": "http",
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "Consul"
+    }
+  }
+}
+
+
+

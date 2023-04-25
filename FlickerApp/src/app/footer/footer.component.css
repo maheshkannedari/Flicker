@@ -1,0 +1,13 @@
+footer {
+    /* height: 0; */
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    display: inline;
+    font-variant: small-caps;
+    padding: 20px;
+    background-color: cadetblue;
+    color: blue;
+    text-align: center;
+    font-size: x-large;
+}

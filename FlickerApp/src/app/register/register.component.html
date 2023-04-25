@@ -1,0 +1,26 @@
+
+<!-- register.component.html -->
+
+<h2>Register</h2>
+
+<form (submit)="RegisterHandler()">
+  <!-- <label>
+    Username:
+    <input type="text" name="username" [(ngModel)]="username">
+  </label> -->
+
+  <label>
+    Email:
+    <input type="email" name="email" [(ngModel)]="v.email">
+  </label>
+
+  <label>
+    Password:
+    <input type="password" name="password" [(ngModel)]="v.password">
+  </label>
+
+  <button type="submit"(click)="RegisterHandler()">Register</button>
+
+</form>
+
+<p>Already have an account? <a routerLink="/login">Login here</a>.</p>
